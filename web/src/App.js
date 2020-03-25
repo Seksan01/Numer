@@ -64,20 +64,6 @@ const bisectionpage = () => setpage(<Bisection />)
                 <Menu.Item  onClick={newtonpage}>Newton</Menu.Item>
                 <Menu.Item onClick={Secantpagepage}>Secant</Menu.Item>
               </SubMenu>
-              
-              <SubMenu
-                key="sub1"
-                title={
-                  <span>
-                    <Icon type="user" />
-                    <span>Linear algebra equations</span>
-                  </span>
-                }
-              >
-                <Menu.Item >Cramer's Rule</Menu.Item>
-                <Menu.Item >Gauss Eliminaation Method</Menu.Item>
-                <Menu.Item >Gauss-Jordan Method</Menu.Item>
-              </SubMenu>
               <SubMenu
                 key="sub4"
                 title={
