@@ -1,13 +1,13 @@
 version: '3'
 services:
   web:
-    build: .
+    build: ./web
     ports:
       - '3000:3000'
     links:
       - server
   server:
-    build: ../server
+    build: ./server
     ports:
     - '9000:9000'  
 
