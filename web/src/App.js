@@ -48,18 +48,15 @@ const bisectionpage = () => setpage(<Bisection />)
                 <Icon type="home" />
                 <span>Home</span>
               </Menu.Item>
-              <Menu.Item onClick={Testpage}>
-                <Icon type="home" />
-                <span>Test</span>
-              </Menu.Item>
             <SubMenu
                 key="M1"
                 title={
                   <span>
-                    <Icon type="loding" />
+                    <Icon type="user" />
                     <span>Root of equations</span>
                   </span>
                 }
+                
               >
                 <Menu.Item  onClick={bisectionpage} >Bisection Method</Menu.Item>
                 <Menu.Item  onClick={falseonpage}>False-Position Method</Menu.Item>
